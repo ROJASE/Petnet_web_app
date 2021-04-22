@@ -156,7 +156,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const aws_iot_device_sdk_v2_1 = require("aws-iot-device-sdk");
+const aws_iot_device_sdk_v2_1 = require("aws-iot-device-sdk-v2");
 const util_1 = require("util");
 const yargs = require('yargs');
 yargs.command('*', false, (yargs) => {
