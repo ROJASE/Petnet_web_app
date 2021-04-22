@@ -1,0 +1,4 @@
+
+Command to start uvx_manager
+
+node sample_manager.js --topic system_status --root-ca ~/uvx/certs/lightsail_certs/Amazon-root-CA-1.pem --cert ~/uvx/certs/lightsail_certs/device.pem.crt --key ~/uvx/certs/lightsail_certs/private.pem.key --endpoint a2v22y3re1l5do-ats.iot.us-east-2.amazonaws.com
