@@ -1,4 +1,4 @@
 
 Command to start uvx_manager
 
-node sample_manager.js --topic system_status --root-ca ~/uvx/certs/lightsail_certs/Amazon-root-CA-1.pem --cert ~/uvx/certs/lightsail_certs/device.pem.crt --key ~/uvx/certs/lightsail_certs/private.pem.key --endpoint a2v22y3re1l5do-ats.iot.us-east-2.amazonaws.com
+node sample_manager.js --topic system_status --root-ca ~/petnet/Petnet_web_app/BeagleBone_AWS_Cert/root-ca.pem --cert ~/petnet/Petnet_web_app/BeagleBone_AWS_Cert/beaglebone-certificate.pem.crt --key ~/petnet/Petnet_web_app/BeagleBone_AWS_Cert/beaglebon-private.pem.key --endpoint a17wfxz40xwmf5-ats.iot.us-west-2.amazonaws.com
