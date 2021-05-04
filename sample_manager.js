@@ -12,7 +12,7 @@ var fs = require('fs');
 var app = require('http').createServer(serverHandler);
 
 // use the socket.io library to listen for updates for updates from the browser
-var io = require('node_modules/socket.io').listen(app);
+var io = require('./node_modules/socket.io').listen(app);
 
 // listen for updates from the web browser on port 8085
 app.listen(8085);
