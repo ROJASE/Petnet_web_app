@@ -1,0 +1,25 @@
+{
+  "name": "Petnet_web_app",
+  "version": "1.0.0",
+  "description": "Web application for displaying a communicating data from and to the IoT Devices",
+  "main": "sample_manager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ROJASE/Petnet_web_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ROJASE/Petnet_web_app/issues"
+  },
+  "homepage": "https://github.com/ROJASE/Petnet_web_app#readme",
+  "dependencies": {
+    "aws-crt": "^1.6.5",
+    "aws-iot-device-sdk-v2": "^1.4.5",
+    "socket.io": "^4.0.1"
+  }
+}
